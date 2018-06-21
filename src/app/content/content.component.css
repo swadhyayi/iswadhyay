@@ -1,0 +1,10 @@
+.sidebar{
+    position: absolute;
+    top: 56px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    overflow: hidden;
+    z-index: -1;
+}
+  

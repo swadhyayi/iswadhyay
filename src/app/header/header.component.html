@@ -1,37 +1,12 @@
-<mat-drawer-container class="sidebar">        
-    <mat-drawer #drawer class="example-sidenav" mode="side" [opened]="showFiller">
-        <mat-toolbar color="primary">
-            <mat-toolbar-row>
-             <!--  leave it blank -->
-            </mat-toolbar-row>
-            </mat-toolbar>
-            <!-- sidebar content comes here -->
-              <ul>
-                <li>1st component</li>
-                <li>secong</li>
-                <li>third</li>
-              </ul>
-             <!-- /sidebar content ends here -->
-            
-      <p>Auto-resizing sidenav</p>
-      <p *ngIf="showFiller">Lorem, ipsum dolor sit amet consectetur.</p>
-      <button (click)="showFiller = !showFiller" mat-raised-button>
-        Toggle extra text
-      </button>
-      <a href="">this is a sidebar component</a>
-    </mat-drawer>
-    <p>{{showFiller}}</p>
-  </mat-drawer-container>
   <mat-toolbar color="primary">
           <mat-toolbar-row>
-              <button mat-icon-button (click)="showFiller = !showFiller"><mat-icon>dehaze</mat-icon></button>
+              <button mat-icon-button><mat-icon>dehaze</mat-icon></button>
               <span>ISWADHYAY</span>
               <span class="example-spacer"></span>
               <button mat-raised-button>
                   menu item
               </button>
               <button mat-icon-button><mat-icon>account_circle</mat-icon></button>
-
           </mat-toolbar-row>
     </mat-toolbar>
   
