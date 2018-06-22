@@ -13,6 +13,7 @@ import {FormsModule} from '@angular/forms';
 import { ContentComponent } from './content/content.component';
 import { SidenavContentComponent } from './content/sidenav-content/sidenav-content.component';
 import { MainContentComponent } from './content/main-content/main-content.component';
+import { ResumeComponent } from './content/main-content/resume/resume.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,8 @@ import { MainContentComponent } from './content/main-content/main-content.compon
     HeaderComponent,
     ContentComponent,
     SidenavContentComponent,
-    MainContentComponent
+    MainContentComponent,
+    ResumeComponent
   ],
   imports: [
     BrowserModule,
