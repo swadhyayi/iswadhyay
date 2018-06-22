@@ -1,11 +1,11 @@
 <mat-drawer-container class="sidebar w3-large" autosize>
-    <mat-drawer #drawer mode="side" opened>
+    <mat-drawer #drawer mode="side" [opened]="showFiller">
       <app-sidenav-content></app-sidenav-content>
     </mat-drawer>  
     <div>
-      <button type="button" mat-button (click)="drawer.toggle()">Toggle sidenav</button>
       <br>
       <app-main-content></app-main-content>
+      <app-footer></app-footer>
     </div>  
   </mat-drawer-container>
   

@@ -16,6 +16,9 @@ import { MainContentComponent } from './content/main-content/main-content.compon
 import { ResumeComponent } from './content/main-content/resume/resume.component';
 import { ViewNewsComponent } from './content/main-content/view-news/view-news.component';
 import { SingleNewsComponent } from './content/main-content/single-news/single-news.component';
+import { FooterComponent } from './content/main-content/footer/footer.component';
+import { ViewProfilesComponent } from './content/main-content/view-profiles/view-profiles.component';
+import { SingleProfileItemComponent } from './content/main-content/view-profiles/single-profile-item/single-profile-item.component';
 
 
 
@@ -28,7 +31,10 @@ import { SingleNewsComponent } from './content/main-content/single-news/single-n
     MainContentComponent,
     ResumeComponent,
     ViewNewsComponent,
-    SingleNewsComponent
+    SingleNewsComponent,
+    FooterComponent,
+    ViewProfilesComponent,
+    SingleProfileItemComponent
   ],
   imports: [
     BrowserModule,

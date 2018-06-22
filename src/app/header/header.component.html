@@ -1,10 +1,10 @@
   <mat-toolbar color="primary">
           <mat-toolbar-row>
-              <button mat-icon-button><mat-icon>dehaze</mat-icon></button>
+              <button mat-icon-button (click)="sidebartoggle()"><mat-icon>dehaze</mat-icon></button>
               <span>ISWADHYAY</span>
               <span class="example-spacer"></span>
               <button mat-raised-button>
-                  menu item
+                  {{stat}}
               </button>
               <button mat-icon-button><mat-icon>account_circle</mat-icon></button>
           </mat-toolbar-row>
