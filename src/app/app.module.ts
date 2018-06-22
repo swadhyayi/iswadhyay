@@ -14,6 +14,10 @@ import { ContentComponent } from './content/content.component';
 import { SidenavContentComponent } from './content/sidenav-content/sidenav-content.component';
 import { MainContentComponent } from './content/main-content/main-content.component';
 import { ResumeComponent } from './content/main-content/resume/resume.component';
+import { ViewNewsComponent } from './content/main-content/view-news/view-news.component';
+import { SingleNewsComponent } from './content/main-content/single-news/single-news.component';
+
+
 
 @NgModule({
   declarations: [
@@ -22,7 +26,9 @@ import { ResumeComponent } from './content/main-content/resume/resume.component'
     ContentComponent,
     SidenavContentComponent,
     MainContentComponent,
-    ResumeComponent
+    ResumeComponent,
+    ViewNewsComponent,
+    SingleNewsComponent
   ],
   imports: [
     BrowserModule,
