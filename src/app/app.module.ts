@@ -21,6 +21,7 @@ import { ViewProfilesComponent } from './content/main-content/view-profiles/view
 import { SingleProfileItemComponent } from './content/main-content/view-profiles/single-profile-item/single-profile-item.component';
 import { LoginComponent } from './login/login.component';
 import { SignupComponent } from './signup/signup.component';
+import { PassRecoveryComponent } from './pass-recovery/pass-recovery.component';
 
 
 
@@ -38,7 +39,8 @@ import { SignupComponent } from './signup/signup.component';
     ViewProfilesComponent,
     SingleProfileItemComponent,
     LoginComponent,
-    SignupComponent
+    SignupComponent,
+    PassRecoveryComponent
   ],
   imports: [
     BrowserModule,
