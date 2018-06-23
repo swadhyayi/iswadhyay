@@ -22,6 +22,8 @@ import { SingleProfileItemComponent } from './content/main-content/view-profiles
 import { LoginComponent } from './login/login.component';
 import { SignupComponent } from './signup/signup.component';
 import { PassRecoveryComponent } from './pass-recovery/pass-recovery.component';
+import { FullNewsComponent } from './content/main-content/full-news/full-news.component';
+import { ProfileCardItenComponent } from './content/main-content/view-profiles/profile-card-iten/profile-card-iten.component';
 
 
 
@@ -40,7 +42,9 @@ import { PassRecoveryComponent } from './pass-recovery/pass-recovery.component';
     SingleProfileItemComponent,
     LoginComponent,
     SignupComponent,
-    PassRecoveryComponent
+    PassRecoveryComponent,
+    FullNewsComponent,
+    ProfileCardItenComponent
   ],
   imports: [
     BrowserModule,
