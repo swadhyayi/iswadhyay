@@ -19,6 +19,8 @@ import { SingleNewsComponent } from './content/main-content/single-news/single-n
 import { FooterComponent } from './content/main-content/footer/footer.component';
 import { ViewProfilesComponent } from './content/main-content/view-profiles/view-profiles.component';
 import { SingleProfileItemComponent } from './content/main-content/view-profiles/single-profile-item/single-profile-item.component';
+import { LoginComponent } from './login/login.component';
+import { SignupComponent } from './signup/signup.component';
 
 
 
@@ -34,7 +36,9 @@ import { SingleProfileItemComponent } from './content/main-content/view-profiles
     SingleNewsComponent,
     FooterComponent,
     ViewProfilesComponent,
-    SingleProfileItemComponent
+    SingleProfileItemComponent,
+    LoginComponent,
+    SignupComponent
   ],
   imports: [
     BrowserModule,
