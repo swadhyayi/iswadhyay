@@ -1,85 +1,85 @@
  <!-- .auth -->
- <main class="auth">
-  <header id="auth-header" class="auth-header" style="background-image: url(assets/images/illustration/img-1.png);">
-    <h1>
-      <img src="assets/images/brand-inverse.png" alt="" height="72">
-      <span class="sr-only">Sign Up</span>
-    </h1>
-    <p> Already have an account? please
-      <a href="auth-signin.html">Sign In</a>
-    </p>
-  </header>
-  <!-- form -->
-  <form class="auth-form" action="auth-signup.php" method="POST">
-    <!-- .form-group -->
-    <div class="form-group">
-      <div class="form-label-group">
-        <input type="email" id="inputEmail" class="form-control" placeholder="Email" required="" autofocus="" name="email">
-        <label for="inputEmail">Email</label>
-      </div>
-    </div>
-    <!-- /.form-group -->
-    <!-- .form-group -->
-    <div class="form-group">
-      <div class="form-label-group">
-        <input type="text" id="inputFirstName" class="form-control" placeholder="First Name" required="" name="fname">
-        <label for="inputFirstName">First Name</label>
-      </div>
-    </div>
-    <!-- /.form-group -->
-<!-- .form-group -->
-    <div class="form-group">
-      <div class="form-label-group">
-        <input type="text" id="inputLastName" class="form-control" placeholder="Last Name" required="" name="lname">
-        <label for="inputLastName">Last Name</label>
-      </div>
-    </div>
-    <!-- /.form-group -->
-      <!-- .form-group -->
-      <div class="form-group">
-        <div class="form-label-group">
-          <input type="text" id="phone" class="form-control" placeholder="Enter Phone no." required="" name="phone">
-          <label for="inputFirstName">Phone</label>
+    <main class="auth">
+      <header id="auth-header" class="auth-header" style="background-image: url(assets/images/illustration/img-1.png);">
+        <h1>
+          <img src="assets/images/brand-inverse.png" alt="" height="72">
+          <span class="sr-only">Sign Up</span>
+        </h1>
+        <p> Already have an account? please
+          <a href="auth-signin.html">Sign In</a>
+        </p>
+      </header>
+      <!-- form -->
+      <form class="auth-form" action="auth-signup.php" method="POST">
+        <!-- .form-group -->
+        <div class="form-group">
+          <div class="form-label-group">
+            <input type="email" id="inputEmail" class="form-control" placeholder="Email" required="" autofocus="" name="email">
+            <label for="inputEmail">Email</label>
+          </div>
         </div>
-      </div>
-      <!-- /.form-group -->
-<!-- .form-group -->
-    <div class="form-group">
-      <div class="form-label-group">
-        <input type="date" id="inputDob" class="form-control" placeholder="DD/MM/YYYY" required="" name="dob"> 
-        <label for="inputLastName">Date of birth</label>
-      </div>
-    </div>
-    <!-- /.form-group -->
-    <!-- .form-group -->
-    <div class="form-group">
-      <div class="form-label-group">
-        <input type="password" id="inputPassword" class="form-control" placeholder="Password" required="" name="psw">
-        <label for="inputPassword">Password</label>
-      </div>
-    </div>
-    <!-- /.form-group -->
-    <!-- .form-group -->
-    <div class="form-group">
-      <button class="btn btn-lg btn-primary btn-block" type="submit">Join Now</button>
-    </div>
-    <!-- /.form-group -->
-    <!-- .form-group -->
-    <div class="form-group text-center">
-      <div class="custom-control custom-control-inline custom-checkbox">
-        <input type="checkbox" class="custom-control-input" id="newsletter">
-        <label class="custom-control-label" for="newsletter">Sign me up for the newsletter</label>
-      </div>
-    </div>
-    <!-- /.form-group -->
-    <!-- recovery links -->
-    <p class="text-center text-muted mb-0"> By creating an account you agree to the
-      <a href="#">Terms of Use</a> and
-      <a href="#">Privacy Policy</a>. </p>
-    <!-- /recovery links -->
-  </form>
-  <!-- /.auth-form -->
-  <!-- copyright -->
-  <footer class="auth-footer"> © 2018 All Rights Reserved. </footer>
-</main>
-<!-- /.auth -->
+        <!-- /.form-group -->
+        <!-- .form-group -->
+        <div class="form-group">
+          <div class="form-label-group">
+            <input type="text" id="inputFirstName" class="form-control" placeholder="First Name" required="" name="fname">
+            <label for="inputFirstName">First Name</label>
+          </div>
+        </div>
+        <!-- /.form-group -->
+		<!-- .form-group -->
+        <div class="form-group">
+          <div class="form-label-group">
+            <input type="text" id="inputLastName" class="form-control" placeholder="Last Name" required="" name="lname">
+            <label for="inputLastName">Last Name</label>
+          </div>
+        </div>
+        <!-- /.form-group -->
+          <!-- .form-group -->
+          <div class="form-group">
+            <div class="form-label-group">
+              <input type="text" id="phone" class="form-control" placeholder="Enter Phone no." required="" name="phone">
+              <label for="inputFirstName">Phone</label>
+            </div>
+          </div>
+          <!-- /.form-group -->
+		<!-- .form-group -->
+        <div class="form-group">
+          <div class="form-label-group">
+            <input type="date" id="inputDob" class="form-control" placeholder="DD/MM/YYYY" required="" name="dob"> 
+            <label for="inputLastName">Date of birth</label>
+          </div>
+        </div>
+        <!-- /.form-group -->
+        <!-- .form-group -->
+        <div class="form-group">
+          <div class="form-label-group">
+            <input type="password" id="inputPassword" class="form-control" placeholder="Password" required="" name="psw">
+            <label for="inputPassword">Password</label>
+          </div>
+        </div>
+        <!-- /.form-group -->
+        <!-- .form-group -->
+        <div class="form-group">
+          <button mat-raised-button color="primary" class="w3-block">Join Now</button>
+        </div>
+        <!-- /.form-group -->
+        <!-- .form-group -->
+        <div class="form-group text-center">
+          <div class="custom-control custom-control-inline custom-checkbox">
+            <mat-checkbox>Sign me up for the newsletter</mat-checkbox>
+            
+          </div>
+        </div>
+        <!-- /.form-group -->
+        <!-- recovery links -->
+        <p class="text-center text-muted mb-0"> By creating an account you agree to the
+          <a href="#">Terms of Use</a> and
+          <a href="#">Privacy Policy</a>. </p>
+        <!-- /recovery links -->
+      </form>
+      <!-- /.auth-form -->
+      <!-- copyright -->
+      <footer class="auth-footer"> © 2018 All Rights Reserved. </footer>
+    </main>
+    <!-- /.auth -->
